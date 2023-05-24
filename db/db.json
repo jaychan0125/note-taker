@@ -1,1 +1,22 @@
-[{"title":"wf bf home","text":"working from Gopzz place! its like 1030pm now","note_id":"b7e4b920-f847-11ed-8f3e-8b5efba2ab14"},{"title":"wfh office","text":"about to go to dinner","note_id":"60aaad20-f8e9-11ed-8863-27b2661d4a44"},{"title":"new day","text":"being hopeful","note_id":"bc1beae0-fa4f-11ed-b7f9-1b2d9bda946b"},{"title":"working on it","text":"is this working yet?","note_id":"962ae0b0-fa55-11ed-b6db-d3ac929d421a"}]
+[
+  {
+    "title": "wf bf home",
+    "text": "working from Gopzz place! its like 1030pm now",
+    "id": "b7e4b920-f847-11ed-8f3e-8b5efba2ab14"
+  },
+  {
+    "title": "wfh office",
+    "text": "about to go to dinner",
+    "id": "60aaad20-f8e9-11ed-8863-27b2661d4a44"
+  },
+  {
+    "title": "new day",
+    "text": "being hopeful",
+    "id": "bc1beae0-fa4f-11ed-b7f9-1b2d9bda946b"
+  },
+  {
+    "title": "omg",
+    "text": "is it working!?",
+    "id": "e0ff8ca0-fa5d-11ed-8db6-01bba4cac54b"
+  }
+]
