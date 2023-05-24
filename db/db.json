@@ -1,1 +1,32 @@
-[{"title":"wf bf home","text":"working from Gopzz place! its like 1030pm now","note_id":"b7e4b920-f847-11ed-8f3e-8b5efba2ab14"},{"title":"wfh office","text":"about to go to dinner","note_id":"60aaad20-f8e9-11ed-8863-27b2661d4a44"},{"title":"help required","text":"why isn't my code working?","note_id":"09245550-f91c-11ed-90d7-b939690b656b"}]
+[
+  {
+    "title": "wf bf home",
+    "text": "working from Gopzz place! its like 1030pm now",
+    "note_id": "b7e4b920-f847-11ed-8f3e-8b5efba2ab14"
+  },
+  {
+    "title": "wfh office",
+    "text": "about to go to dinner",
+    "note_id": "60aaad20-f8e9-11ed-8863-27b2661d4a44"
+  },
+  {
+    "title": "help required",
+    "text": "why isn't my code working?",
+    "note_id": "09245550-f91c-11ed-90d7-b939690b656b"
+  },
+  {
+    "title": "panic",
+    "text": "does this work",
+    "note_id": "f86fdab0-f9aa-11ed-906a-3f1cbbcdb6f4"
+  },
+  {
+    "title": "bruh",
+    "text": "this is much easier to understand on server than on insomnia",
+    "note_id": "056f0880-f9ab-11ed-906a-3f1cbbcdb6f4"
+  },
+  {
+    "title": "office hrs",
+    "text": "attending office hours",
+    "note_id": "7c2ae990-f9b4-11ed-8134-03711ac47802"
+  }
+]
