@@ -40,8 +40,9 @@ router.post('/notes', (req, res) => {
 
 //HERE
 router.delete('/notes/:note_id', (req, res) => {
+    console.log(`HTTP METHOD: ${req.method}`);
     const noteId = req.params.note_id;
-    console.log(noteId)
+    console.log(`id param: ${noteId}`)
     readFile('./db/db.json', 'utf-8', (err, data) => {
         if (err) {
             console.error(err);
@@ -49,17 +50,20 @@ router.delete('/notes/:note_id', (req, res) => {
         }
 
         let notes = JSON.parse(data);
-        const deleteNoteIndex = notes.findIndex(note => note.note_id === noteId);
-        const deletedNote = notes[deleteNoteIndex];
         //findIndex, if no elements satisfy: -1,  otherwise will output the index number
-        console.log(deleteNoteIndex)
-        notes.splice(deleteNoteIndex, 1);
+        const deleteNoteIndex = notes.findIndex(note => note.note_id === noteId);
+        if (deleteNoteIndex !== -1) {
+            notes.splice(deleteNoteIndex, 1);
+        } else {
+            console.log(`notes_id ${noteId} not found`);
+        }
+        const deletedNote = notes[deleteNoteIndex];
         //save new notes db
         writeFile('./db/db.json', JSON.stringify(db), (err) =>
         err
           ? console.error(err)
           : console.log(
-            `JSON file has been updated: ${deletedNote.title} removed`
+            `JSON file has been updated: '${deletedNote.title}' removed`
             ));
     })
 })
